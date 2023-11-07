@@ -1,0 +1,91 @@
+body {
+    background-image: url(../assets/RestaurantMockupFiles/assets/bgtexture.jpg);
+}
+.menuHead {
+    color: #5f002b;
+}
+
+.menuSub {
+    color: #5f002b;
+}
+
+
+.containerCard1-fluid{
+    width: 35%;
+    background-color: white;
+    border: 2px solid red;
+    margin-right: .5%;
+}
+.containerCard2-fluid{
+    width: 35%;
+    background-color: white;
+    border: 2px solid red;
+    margin-left: .5%;
+}
+
+.containerCard3-fluid{
+    width: 35%;
+    background-color: white;
+    border: 2px solid red;
+    margin-right: .5%;
+    margin-top: 1%;
+}
+.containerCard4-fluid{
+    width: 35%;
+    background-color: white;
+    border: 2px solid red;
+    margin-left: .5%;
+    margin-top: 1%;
+}
+
+
+.rowImg1 {
+    background-image: url(../assets/RestaurantMockupFiles/assets/menubeef.jpg);
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+
+.rowImg2 {
+    background-image: url(../assets/RestaurantMockupFiles/assets/menuseafood.jpg);
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+
+.rowImg3 {
+    background-image: url(../assets/RestaurantMockupFiles/assets/menumeat.jpg);
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+.rowImg4 {
+    background-image: url(../assets/RestaurantMockupFiles/assets/menudesserts.jpg);
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+
+.colMenuAlign{
+    vertical-align: top;
+    display: inline-block;
+}
+
+.containerFood-fluid{
+    border: 2px solid blue;
+    margin-bottom: 5%;
+}
+
+.containerMenu-fluid{
+    border: 2px solid orange;
+    width: 100%;
+
+}
+
+.menuPrice {
+    color: #5f002b;
+    font-size: 20px;
+
+}
+
+.rowSpace{
+    display: flex;
+    justify-content: center;
+}
+
