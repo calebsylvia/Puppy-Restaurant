@@ -1,0 +1,74 @@
+body {
+    background-image: url(/assets/RestaurantMockupFiles/assets/bgtexture.jpg);
+}
+.about-img {
+    padding: 0 !important;
+    text-align: right;
+}
+.textbox {
+    background-color: white;
+    height: 550px;
+    width: 650px;
+    color: #5f002b;
+    font-size: 12px;
+    padding: 20px 30px;
+}
+
+.text {
+    text-align: center;
+    background-color: white;
+    color: #5f002b;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.space-top {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.grid-container{
+    display: inline-grid;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+.card {
+    border-radius: 0;
+}
+
+.cards img {
+    border-radius: 0;
+}
+
+.card-body{
+    color: #5f002b;
+}
+
+.cardRowSpace {
+    padding: 10px 0px;
+}
+
+.noPad {
+    padding: 4px !important;
+}
+
+
+.sizeImg img {
+    height: 300px;
+    width: 300px;
+}
+
+.sizeImg {
+    border: 10px white solid;
+}
+
+.rowSpace{
+    padding: 10px 0px;
+}
+
+.colSpace{
+    padding-right: 5px !important;
+    padding-left: 5px !important;
+}
+.boxSpace {
+    padding: 20px 0px;
+}
