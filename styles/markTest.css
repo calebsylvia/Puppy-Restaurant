@@ -1,0 +1,166 @@
+body {
+    background-image: url(../assets/RestaurantMockupFiles/assets/bgtexture.jpg);
+}
+/* Text Settings Start*/
+.menuHead {
+    color: #5f002b;
+}
+
+.menuSub {
+    color: #5f002b;
+}
+/* Text Settings End */
+
+/* Container Card Start */
+.containerCard1-fluid{
+    width: 35%;
+    background-color: white;
+    border: 2px solid red;
+    margin-right: .5%;
+}
+.containerCard2-fluid{
+    width: 35%;
+    background-color: white;
+    border: 2px solid red;
+    margin-left: .5%;
+}
+
+.containerCard3-fluid{
+    width: 35%;
+    background-color: white;
+    border: 2px solid red;
+    margin-right: .5%;
+    margin-top: 1%;
+}
+.containerCard4-fluid{
+    width: 35%;
+    background-color: white;
+    border: 2px solid red;
+    margin-left: .5%;
+    margin-top: 1%;
+}
+/* Container Card End */
+
+.rowImg1 {
+    background-image: url(../assets/RestaurantMockupFiles/assets/menubeef.jpg);
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+
+.rowImg2 {
+    background-image: url(../assets/RestaurantMockupFiles/assets/menuseafood.jpg);
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+
+.rowImg3 {
+    background-image: url(../assets/RestaurantMockupFiles/assets/menumeat.jpg);
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+.rowImg4 {
+    background-image: url(../assets/RestaurantMockupFiles/assets/menudesserts.jpg);
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+
+.colMenuAlign{
+    vertical-align: top;
+    display: inline-block;
+}
+
+.containerFood-fluid{
+    border: 2px solid blue;
+    margin-bottom: 5%;
+}
+
+.containerMenu-fluid{
+    border: 2px solid orange;
+    width: 100%;
+
+}
+
+.menuPrice {
+    color: #5f002b;
+    font-size: 20px;
+
+}
+
+.rowSpace{
+    display: flex;
+    justify-content: center;
+}
+
+/* Cater Page Start */
+
+.containerBody-fluid{
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    width: 80;
+}
+
+.containerBody2-fluid{
+    border: 2px solid white;
+    width: 85%;
+}
+
+.containerCater-fluid {
+    border: 2px solid pink;
+    display: flex;
+    justify-content: center;
+}
+
+/* Cater Hero */
+
+.rowHero {
+    border: orange solid 2px;
+    width: 100%;
+    
+}
+
+.caterHero {
+    background-image: url(../assets/RestaurantMockupFiles/assets/cateringHero.jpg);
+    padding-top: 15%;
+    padding-bottom: 15%;
+    background-repeat: no-repeat;
+}
+
+/* Cater Hero End */
+
+.colCaterMain-fluid {
+    background-image: url(../assets/RestaurantMockupFiles/assets/cateringMaine.jpg);
+    background-repeat: no-repeat;
+    padding-top: 100%;
+    padding-bottom: 100%;
+}
+
+.caterImage {
+    background-image: url(../assets/RestaurantMockupFiles/assets/cateringMaine.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+.containerCaterTxt-fluid{
+    border: 2px solid red;
+    background-color: white;
+}
+
+.CaterTxt {
+    font-size: 80%;
+}
+
+.containerTnI-fluid {
+    border: 2px solid aqua;
+    
+}
+
+.containerMH-fluid {
+    border: 2px solid orange;
+    background-color: white;
+    width: 90%;
+    
+}
+
+/* Cater Page End */
