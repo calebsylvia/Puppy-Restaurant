@@ -1,6 +1,7 @@
 body {
     background-image: url(../assets/RestaurantMockupFiles/assets/bgtexture.jpg);
 }
+/* Text Settings Start*/
 .menuHead {
     color: #5f002b;
 }
@@ -8,8 +9,9 @@ body {
 .menuSub {
     color: #5f002b;
 }
+/* Text Settings End */
 
-
+/* Container Card Start */
 .containerCard1-fluid{
     width: 35%;
     background-color: white;
@@ -37,7 +39,7 @@ body {
     margin-left: .5%;
     margin-top: 1%;
 }
-
+/* Container Card End */
 
 .rowImg1 {
     background-image: url(../assets/RestaurantMockupFiles/assets/menubeef.jpg);
@@ -89,3 +91,76 @@ body {
     justify-content: center;
 }
 
+/* Cater Page Start */
+
+.containerBody-fluid{
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    width: 80;
+}
+
+.containerBody2-fluid{
+    border: 2px solid white;
+    width: 85%;
+}
+
+.containerCater-fluid {
+    border: 2px solid pink;
+    display: flex;
+    justify-content: center;
+}
+
+/* Cater Hero */
+
+.rowHero {
+    border: orange solid 2px;
+    width: 100%;
+    
+}
+
+.caterHero {
+    background-image: url(../assets/RestaurantMockupFiles/assets/cateringHero.jpg);
+    padding-top: 15%;
+    padding-bottom: 15%;
+    background-repeat: no-repeat;
+}
+
+/* Cater Hero End */
+
+.colCaterMain-fluid {
+    background-image: url(../assets/RestaurantMockupFiles/assets/cateringMaine.jpg);
+    background-repeat: no-repeat;
+    padding-top: 100%;
+    padding-bottom: 100%;
+}
+
+.caterImage {
+    background-image: url(../assets/RestaurantMockupFiles/assets/cateringMaine.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+.containerCaterTxt-fluid{
+    border: 2px solid red;
+    background-color: white;
+}
+
+.CaterTxt {
+    font-size: 80%;
+}
+
+.containerTnI-fluid {
+    border: 2px solid aqua;
+    
+}
+
+.containerMH-fluid {
+    border: 2px solid orange;
+    background-color: white;
+    width: 90%;
+    
+}
+
+/* Cater Page End */
