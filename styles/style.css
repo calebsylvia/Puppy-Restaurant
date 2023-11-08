@@ -21,8 +21,11 @@ body {
 .navBg {
     background-image: url('/assets/RestaurantMockupFiles/assets/bgtexture.jpg');
     padding: 0;
-    max-width: 1920px;
+    /* max-width: 1920px; */
 
+}
+.navMenu {
+    max-width: 1920px;
 }
 
 .logoBrand {
@@ -45,11 +48,11 @@ body {
     margin-bottom: 60px;
     margin-right: 140px;
 }
-
+/* 
 .navStyle {
     margin: 0;
     padding: 0;
-}
+} */
 
 .navbar-brand {
     padding: 0;
