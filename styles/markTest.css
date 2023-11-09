@@ -25,33 +25,87 @@ body {
 hr {
     color: #5f002b;
 }
+
+/* Row Spacing Start */
+.spaceV {
+    margin-bottom: 2%;
+}
+.spaceV2 {
+    margin-bottom: 5%;
+}
+/* Row Spacing End */
+
 /* Text Settings End */
 
-/* Container Card Start */
-.containerCard1-fluid{
-    background-color: white;
-    border: 2px solid red;
-}
-.containerCard2-fluid{
+
+
+/* Cater 3 Images Start */
+.picImportantR {
+    padding-right: 3px  !important;
     
-    background-color: white;
-    border: 2px solid red;
 }
 
-.containerCard3-fluid{
+.picImportantL {
+    padding-left: 3px  !important;
     
-    background-color: white;
-    border: 2px solid red;
-    margin-right: .5%;
-    margin-top: 1%;
 }
-.containerCard4-fluid{
-    
-    background-color: white;
-    border: 2px solid red;
-    margin-left: .5%;
-    margin-top: 1%;
+/* Cater 3 Images End */
+
+
+
+
+/* Navbar Start */
+.navbar{
+    width: 90%;
+    margin: 0 auto;
 }
+
+.navbar-nav li a{
+    font-family: 'Fugaz', sans-serif;
+    color:#5f002b;
+}
+
+.navbar{
+    padding-bottom: 25px;
+}
+/* Navbar End */
+
+/* Footer start */
+.footBox{
+    padding: 0px !important;
+}
+
+.left{
+    font-family: 'Montauk', sans-serif;
+    color:#5f002b;
+    padding: 0px !important;
+}
+
+.right{
+    font-family: 'Montauk', sans-serif;
+    color: #5f002b;
+    padding: 0px !important;
+    text-align: right;
+}
+
+.right img {
+    padding-bottom: 10px;
+}
+
+.flexMe{
+    width: 100%;
+    display: inline-flex;
+    flex-wrap: nowrap;
+    margin: 0 auto;
+
+}
+/* Footer end */
+
+
+
+
+/* Container Card Start */
+
 /* Container Card End */
 
 .rowImg1 {
