@@ -1,3 +1,5 @@
+/* Universal */
+
 body {
     background-image: url('/assets/RestaurantMockupFiles/assets/bgtexture.jpg');
     margin: 0;
@@ -17,13 +19,6 @@ body {
     font-family: 'Fugaz';
     src: url('/fonts/FugazOne-Regular.ttf') format('truetype');
 }
-
-.navBg {
-    background-image: url('/assets/RestaurantMockupFiles/assets/bgtexture.jpg');
-    padding: 0;
-    /* max-width: 1920px; */
-}
-
 .navbar{
     width: 90%;
     margin: 0 auto;
@@ -38,98 +33,25 @@ body {
     padding-bottom: 25px;
 }
 
-.homeHeroImg {
+footer{
     width: 100%;
-    height: 600px;
-    /* background-size: contain; */
-    /* background-position: center center; */
-}
-.nextHalfCont {
-    /* margin-left: 120px; */
-    height: auto;
-    padding: 0px !important;
-    
-}
-
-.bodyImgCont {
-    margin-top: 100px;
-}
-
-.homSingImgCont {
-    padding-right: 8px;
-}
-
-
-.homeImgCont {
-    width: 600px;
-    height: 449.5px;
-}
-.homeSingleImg {
-    width: 674px;
-    height: 449.5px;
-    padding-right: 16px;
-}
-.firstpgTxtCont {
-    /* padding-left: 8px;
-    padding-right: 0px;
-    margin-right: 50px; */
-    /* width: 900px; */
-}
-
-.firstpgTxt {
-    background-color: white;
-    width: 950px;
-    height: 250px;
-
-}
-
-.firstpgHeadertxt {
-    color: #5F002B;
-    font-size: 50px;
-    margin: 0;
-    padding-left: 40px;
-    font-family: 'Fugaz';
-}
-
-.firstpgPgtxt {
-    color: #5F002B;
-    font-size: 20px;
-    margin: 0;
-    width: 950px;
-    /* padding: 16px; */
-    font-family: 'Montauk';
-    padding-left: 40px;
-    padding-bottom: 0px;
-    padding-right: 64px;
-}
-
-.homeImageImg {
-    width: 950px;
-    height: 200px;
-    margin-top: 45px;
+    padding-top: 50px;
 }
 
 .footBox{
     padding: 0px !important;
-    /* margin-left: 80px;
-    margin-right: 80px; */
 }
 
 .left{
     font-family: 'Montauk', sans-serif;
     color:#5f002b;
     padding: 0px !important;
-    /* margin-top: 60px; */
-    /* margin-left: -25px; */
-    /* text-align: left; */
 }
 
 .right{
     font-family: 'Montauk', sans-serif;
     color: #5f002b;
     padding: 0px !important;
-    /* margin-top: 60px; */
-    /* margin-right: 60px; */
     text-align: right;
 }
 
@@ -143,4 +65,418 @@ body {
     flex-wrap: nowrap;
     margin: 0 auto;
 
+}
+
+
+
+/* Home Page */
+.indBox{
+    width: 90%;
+    margin: 0 auto;
+    padding: 60px 0px 0px 0px !important;
+}
+
+.indBox img{
+    padding: 0 !important;
+}
+
+.fixPad {
+    padding: 0 !important;
+}
+
+.bgText{
+    background-color: white;
+    color:#5F002B;
+}
+
+.bgText p{
+    padding: 5px 15px 50px 15px;
+    font-size: 25px;
+}
+
+.bgText h4{
+    padding: 15px 0px 0px 20px;
+}
+
+.noBord img{
+    border-radius: 0;
+}
+
+
+@media only screen and (min-width: 1441px) and (max-width: 1800px){
+    .bgText p{
+        font-size: medium;
+        line-height: 1.1;
+    }
+}
+
+@media only screen and (min-width: 1250px) and (max-width: 1440px){
+    .bgText p{
+        font-size: medium;
+        line-height: normal;
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1249px){
+    .bgText p{
+        font-size: 14px;
+        line-height: normal;
+    }
+}
+
+@media only screen and (max-width: 1024px){
+    .bgText p{
+        font-size: small;
+        line-height: normal;
+        padding-bottom: 15px !important;
+    }
+}
+
+@media only screen and (max-width: 1024px){
+    .bgText h4 {
+        font-size: medium;
+        padding-top: 10px;
+    }
+}
+
+/* About Page */
+
+.cont-box{  
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0px 0px !important;
+}
+.about-img {
+    padding: 0px 0px 0px 10px !important;
+    text-align: right;
+}
+.textbox {
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    color: #5f002b;
+    font-size: 18px;
+    line-height: normal;
+    padding: 20px 30px;
+}
+
+
+@media only screen and (min-width: 1801px){
+    .textbox{
+        font-size: large;
+        line-height: 1.1;
+    }
+}
+@media only screen and (min-width: 1441px) and (max-width: 1800px){
+    .textbox{
+        font-size: medium;
+        line-height: 1.1;
+    }
+}
+
+@media only screen and (min-width: 1250px) and (max-width: 1440px){
+    .textbox{
+        font-size: medium;
+        line-height: normal;
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1249px){
+    .textbox{
+        font-size: 14px;
+        line-height: normal;
+    }
+}
+
+@media only screen and (max-width: 1024px){
+    .textbox{
+        font-size: small;
+        line-height: normal;
+    }
+}
+
+@media only screen and (max-width: 1024px){
+    .textbox h1 {
+        font-size: medium;
+    }
+}
+
+.textbox p{
+    font-family: 'MontaukLight', sans-serif;
+}
+
+.textbox h1 {
+    font-family: 'Fugaz', sans-serif;
+}
+
+
+.text {
+    text-align: center;
+    background-color: white;
+    color: #5f002b;
+    padding: 10px 0px;
+    font-family: 'Fugaz', sans-serif;
+    width: 100%;
+}
+
+.space-top {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.card {
+    border-radius: 0;
+}
+
+.cards img {
+    border-radius: 0;
+}
+
+.card-body{
+    color: #5f002b;
+}
+.card-text{
+    font-family: 'MontaukLight', sans-serif;
+    line-height: 1.1;
+    padding-bottom: 10px;
+    margin: 0px 5px;
+}
+
+.card-title{
+    font-family: 'Fugaz', sans-serif;
+    padding-left: 10px;
+}
+
+.cardRowSpace {
+    padding: 10px 0px;
+}
+
+.card-side{
+    border-radius: 0;
+}
+
+.card-side img{
+    border-radius: 0;
+}
+
+.margBot{
+    margin: 10px auto;
+}
+
+.noPad {
+    padding: 4px !important;
+}
+
+/* Photos Page */
+
+.sizeImg img {
+    height: 300px;
+    width: 300px;
+}
+
+.sizeImg {
+    border: 0.5em white solid;
+}
+
+.colSpace{
+    padding-right: 5px !important;
+    padding-left: 5px !important;
+}
+.boxSpace {
+    padding: 20px 0px;
+}
+
+@media only screen and (max-width: 767px){
+    .colSpace{
+        padding-bottom: 10px;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .rowSpace{
+        padding-bottom: 10px;
+    }
+}
+
+
+/* Marks CSS */
+
+.containerBody-fluid{
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Text Settings Start*/
+.menuHead {
+    color: #5f002b;
+    font-family: 'Fugaz';
+    margin-top: 4%;
+}
+
+.menuSub {
+    color: #5f002b;
+    font-size: 11px;
+    font-family: 'MontaukLight';
+}
+
+
+.cBgk {
+    padding-right: 0px  !important;
+    padding-left: 0px  !important;
+}
+
+
+    .padTest{
+        /* padding-bottom: 81px; */
+        height: 100%;
+    }
+
+
+.menuPrice {
+    color: #5f002b;
+    font-family: 'MontaukLight';
+}
+
+hr {
+    color: #5f002b;
+}
+
+.containerMH-fluid h1{
+    font-family: 'Fugaz';
+    color: #5f002b;
+}
+
+.ourCSH{
+    font-family: 'Fugaz';
+    color: #5f002b;
+}
+.ourCSP{
+    font-family: 'MontaukLight';
+    color: #5f002b;
+}
+
+.spaceV {
+    margin-bottom: 2%;
+}
+.spaceV2 {
+    margin-bottom: 5%;
+}
+
+.picImportantR {
+    padding-right: 3px  !important;
+    
+}
+
+.picImportantL {
+    padding-left: 3px  !important;
+    
+}
+
+.rowImg1 {
+    background-image: url(../assets/RestaurantMockupFiles/assets/menubeef.jpg);
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+
+.rowImg2 {
+    background-image: url(../assets/RestaurantMockupFiles/assets/menuseafood.jpg);
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+
+.rowImg3 {
+    background-image: url(../assets/RestaurantMockupFiles/assets/menumeat.jpg);
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+.rowImg4 {
+    background-image: url(../assets/RestaurantMockupFiles/assets/menudesserts.jpg);
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+
+.colMenuAlign{
+    vertical-align: top;
+    display: inline-block;
+}
+
+.containerFood-fluid{
+    border: 2px solid blue;
+    margin-bottom: 5%;
+    width: 95%;
+}
+
+
+.containerCater-fluid {
+    border: 2px solid pink;
+    display: flex;
+    justify-content: center;
+}
+
+/* Cater Hero */
+
+
+.caterHero{
+    margin-bottom: 5%;
+}
+
+.CaterImage {
+    background-image: url(../assets/RestaurantMockupFiles/assets/cateringMaine.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+   
+    border: 2px solid purple;
+}
+
+@media (max-width: 992px) {
+    .imgHide {
+      display: none;
+    }
+  }
+  
+/* Media Queries */
+
+.caterTxt {
+    font-size: 12px;
+    
+}
+
+
+.containerMH-fluid {
+    background-color: white;
+    text-align: center;
+    margin-bottom: 5%;
+    
+}
+
+/* Cater Page End */
+
+.testBD{
+    border: 2px solid aqua;
+}
+
+.paddingTest {
+   padding-left: 0%;
+   padding-right: 0%;
+}
+
+.flexRight{
+    display: flex;
+    justify-content: right;
+}
+
+.bGWhite{
+    background-color: white;
+}
+
+
+
+.imgCtr{
+    width: 100%;
+   
+}
+
+.txtFit {
+    height: 100%;
 }

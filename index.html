@@ -1,62 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Home</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="./styles/style.css">
-  </head>
-  <body>
-    
-  <section>
-    <div>
-      <img class="homeHeroImg" src="./assets/RestaurantMockupFiles/assets/homeHero.jpg"
-        alt="This is an image of tables and chairs outside a restaurant" />
-    </div>
-  </section>
 
-  <section>
-    <div class="container">
-      <div class="row bodyImgCont">
-        <div class="col d-flex">
-          <div class="col homeImgCont">
-            <img class="homeSingleImg" src="./assets/RestaurantMockupFiles/assets/homeSingle.jpg"
-              alt="This is an image of a meal on a wooden platter with french fries, a sliced sandwhich, and a drink" />
-          </div>
-          <div class="col firstpgTxtCont">
-            <div class="firstpgTxt">
-              <br>
-              <h1 class="firstpgHeadertxt">Muzzles Sandwiches & Grill</h1>
-              <p class="firstpgPgtxt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                velit
-                esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                culpa
-                qui
-                officia deserunt mollit anim id est laborum.</p>
-              <div>
-                <img class="homeImageImg" src="./assets/RestaurantMockupFiles/assets/HomeImage.jpg"
-                  alt="This is an divided image with 3 parts, first part is a sliced panini sandwhich, second part is a dog biting onto the end piece of a fried fish, third part is a white plate with french fries and two burgers" />
-              </div>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Home</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/index.html">
+        <img class="img-fluid" src="/assets/RestaurantMockupFiles/assets/MuzzlesLogo.png" alt="Muzzle's logo" width="200px">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="/pages/about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/pages/menu.html">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/pages/catering.html">Catering</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/pages/photos.html">Photos</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+    <div class="container-fluid fixPad">
+      <img class="homeHeroImg img-fluid" src="./assets/RestaurantMockupFiles/assets/homeHero.jpg"
+        alt="This is an image of tables and chairs outside a restaurant" width="100%"/>
+    </div>
+  
+
+
+
+  
+    <div class="container-fluid indBox">
+      <div class="row">
+        <div class="col-5 d-none d-lg-block">
+          <img src="/assets/RestaurantMockupFiles/assets/homeSingle.jpg" alt="Sandwich meal with fries" width="100%">
+        </div>
+        <div class="col-lg-7">
+          <div class="card h-100 noBord">
+            <div class="card-body bgText">
+              <h4 class="card-title bgText">Muzzles Sandwiches & Grill</h4>
+              <p class="card-text bgText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              
             </div>
+            <img class="img-fluid" src="/assets/RestaurantMockupFiles/assets/HomeImage.jpg" class="card-img-bottom" alt="Dogs and Food">
           </div>
         </div>
       </div>
-  </section>
-
+      <div class="container-fluid footBox">
+        <footer>
+            <div class="row flexMe">
+                <div class="col-6 left">
+                    <p>1357 Mutt Street, Rottweiler CA. 12345</p>
+                    <p>Phone: 123-456-7890</p>
+                </div>
+                <div class="col-6 right">
+                    <img class="img-fluid" src="/assets/RestaurantMockupFiles/assets/CompanyLogo.png" alt="Company Logo" width="100px">
+                    <p>Copyright &copy; Muzzles Restaraunt</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    </div>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous"></script>
 </body>
-
-
-
 </html>
