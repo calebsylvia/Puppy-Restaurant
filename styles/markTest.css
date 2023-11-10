@@ -5,27 +5,81 @@ body {
 }
 .containerBody-fluid{
     border: 2px solid black;
-    width: 85%;
+    width: 90%;
 }
 /* Text Settings Start*/
 .menuHead {
     color: #5f002b;
+    font-family: 'Fugaz';
+    margin-top: 4%;
 }
 
 .menuSub {
     color: #5f002b;
-    font-size: 10px;
+    font-size: 11px;
+    font-family: 'MontaukLight';
 }
+
+
+.cBgk {
+    padding-right: 0px  !important;
+    padding-left: 0px  !important;
+}
+
+
+    .padTest{
+        /* padding-bottom: 81px; */
+        height: 100%;
+    }
+
 
 .menuPrice {
     color: #5f002b;
-
+    font-family: 'MontaukLight';
 }
 
 hr {
     color: #5f002b;
 }
 
+.containerMH-fluid h1{
+    font-family: 'Fugaz';
+    color: #5f002b;
+}
+
+.ourCSH{
+    font-family: 'Fugaz';
+    color: #5f002b;
+}
+.ourCSP{
+    font-family: 'MontaukLight';
+    color: #5f002b;
+}
+
+
+
+/* Fonts Start */
+@font-face {
+    font-family: 'Montauk';
+    src: url('/fonts/Montauk-Regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'MontaukLight';
+    src: url('/fonts/Montauk-Light.otf') format('opentype');
+}
+@font-face {
+    font-family: 'Fugaz';
+    src: url('/fonts/FugazOne-Regular.ttf') format('truetype');
+}
+
+
+
+
+
+
+
+/* Fonts End */
 /* Row Spacing Start */
 .spaceV {
     margin-bottom: 2%;
@@ -142,13 +196,6 @@ hr {
     width: 95%;
 }
 
-.containerMenu-fluid{
-    border: 2px solid orange;
-    width: 95%;
-
-}
-
-
 
 .rowSpace{
     display: flex;
@@ -189,20 +236,27 @@ hr {
     border: 2px solid purple;
 }
 
-
-
+/* small >768 medium >992 */
+/* Media Queries */
+@media (max-width: 992px) {
+    .imgHide {
+      display: none;
+    }
+  }
+  
+/* Media Queries */
 
 .caterTxt {
-    font-size: 10px;
+    font-size: 12px;
     
 }
 
 
 .containerMH-fluid {
-    border: 2px solid orange;
     background-color: white;
     text-align: center;
     margin-bottom: 5%;
+    
 }
 
 /* Cater Page End */
