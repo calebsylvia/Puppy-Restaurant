@@ -18,146 +18,72 @@ body {
     src: url('/fonts/FugazOne-Regular.ttf') format('truetype');
 }
 
-.navBg {
-    background-image: url('/assets/RestaurantMockupFiles/assets/bgtexture.jpg');
-    padding: 0;
-    /* max-width: 1920px; */
 
-}
-.navMenu {
-    max-width: 1920px;
+.indBox{
+    width: 90%;
+    margin: 0 auto;
+    padding: 60px 0px 0px 0px !important;
 }
 
-.logoBrand {
-    margin-top: 14px;
-    max-width: 250px;
-    max-height: 92px;
+.indBox img{
+    padding: 0 !important;
 }
 
-/* .navRow {
-    max-width: 1920px;
-    margin: 0;
-    padding: 0;
-
-} */
-
-.navbar-collapse {
-    margin: 0;
-    float: right;
-    margin-top: 45px;
-    margin-bottom: 60px;
-    margin-right: 140px;
-}
-/* 
-.navStyle {
-    margin: 0;
-    padding: 0;
-} */
-
-.navbar-brand {
-    padding: 0;
-    margin-left: 166px;
-    margin-top: 14px;
-    margin-right: 184px;
+.fixPad {
+    padding: 0 !important;
 }
 
-#navigation * {
-    color: #5F002B;
-    font-size: 20px;
-    font-family: 'Fugaz';
-    max-width: 1920px;
-}
-
-/* .row {
-    margin: 0;
-    padding: 0;
-} */
-
-.homeHeroImg {
-    max-width: 1920px;
-    max-height: 600px;
-    background-size: contain;
-    background-position: center center;
-}
-
-.bodyImgCont {
-    margin-top: 100px;
-}
-.d-flex {
-    padding: 0;
-}
-
-.homeImgCont {
-    max-width: 882px;
-    max-height: 449.5px;
-}
-.homeSingleImg {
-    max-width: 882px;
-    max-height: 500px;
-    padding-right: 8px;
-    /* float: right; */
-    margin-left: 140px;
-}
-.firstpgTxtCont {
-    padding-left: 8px;
-    margin-right: 140px;
-}
-
-.firstpgTxt {
+.bgText{
     background-color: white;
-    max-width: 950px;
-    max-height: 200px;
-    /* margin-top: 100px; */
-    /* margin-right: 140px; */
-    padding: 0;
-
+    color:#5F002B;
 }
 
-.firstpgHeadertxt {
-    color: #5F002B;
-    font-size: 50px;
-    margin: 0;
-    padding-left: 16px;
-    font-family: 'Fugaz';
+.bgText p{
+    padding: 5px 15px 50px 15px;
+    font-size: 25px;
 }
 
-.firstpgPgtxt {
-    color: #5F002B;
-    font-size: 20px;
-    margin: 0;
-    max-width: 950px;
-    /* padding: 16px; */
-    font-family: 'Montauk';
-    padding-right: 16px;
-    padding-left: 16px;
-    padding-bottom: 0px;
+.bgText h4{
+    padding: 15px 0px 0px 20px;
 }
 
-.homeImageImg {
-    max-width: 950px;
-    max-height: 300px;
+.noBord img{
+    border-radius: 0;
 }
 
-.footerTxt {
-    font-size: 20px;
-    margin-left: 140px;
-    margin-top: 20px;
-    font-family: 'Montauk';
-    color: #5F002B;
+
+@media only screen and (min-width: 1441px) and (max-width: 1800px){
+    .bgText p{
+        font-size: medium;
+        line-height: 1.1;
+    }
 }
 
-.footerLogo {
-    font-size: 20px;
-    max-width: 100px;
-    max-height: 31.6px;
-    margin-right: 140px;
-    margin-left: auto;
+@media only screen and (min-width: 1250px) and (max-width: 1440px){
+    .bgText p{
+        font-size: medium;
+        line-height: normal;
+    }
 }
 
-.copyrightTxt {
-    font-size: 20px;
-    margin-right: 140px;
-    text-align: right;
-    font-family: 'Montauk';
-    color: #5F002B;
+@media only screen and (min-width: 1025px) and (max-width: 1249px){
+    .bgText p{
+        font-size: 14px;
+        line-height: normal;
+    }
+}
+
+@media only screen and (max-width: 1024px){
+    .bgText p{
+        font-size: small;
+        line-height: normal;
+        padding-bottom: 15px !important;
+    }
+}
+
+@media only screen and (max-width: 1024px){
+    .bgText h4 {
+        font-size: medium;
+        padding-top: 10px;
+    }
 }
