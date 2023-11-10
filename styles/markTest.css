@@ -1,44 +1,165 @@
 body {
     background-image: url(../assets/RestaurantMockupFiles/assets/bgtexture.jpg);
+    display: flex;
+    justify-content: center;
+}
+.containerBody-fluid{
+    border: 2px solid black;
+    width: 90%;
 }
 /* Text Settings Start*/
 .menuHead {
     color: #5f002b;
+    font-family: 'Fugaz';
+    margin-top: 4%;
 }
 
 .menuSub {
     color: #5f002b;
+    font-size: 11px;
+    font-family: 'MontaukLight';
 }
+
+
+.cBgk {
+    padding-right: 0px  !important;
+    padding-left: 0px  !important;
+}
+
+
+    .padTest{
+        /* padding-bottom: 81px; */
+        height: 100%;
+    }
+
+
+.menuPrice {
+    color: #5f002b;
+    font-family: 'MontaukLight';
+}
+
+hr {
+    color: #5f002b;
+}
+
+.containerMH-fluid h1{
+    font-family: 'Fugaz';
+    color: #5f002b;
+}
+
+.ourCSH{
+    font-family: 'Fugaz';
+    color: #5f002b;
+}
+.ourCSP{
+    font-family: 'MontaukLight';
+    color: #5f002b;
+}
+
+
+
+/* Fonts Start */
+@font-face {
+    font-family: 'Montauk';
+    src: url('/fonts/Montauk-Regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'MontaukLight';
+    src: url('/fonts/Montauk-Light.otf') format('opentype');
+}
+@font-face {
+    font-family: 'Fugaz';
+    src: url('/fonts/FugazOne-Regular.ttf') format('truetype');
+}
+
+
+
+
+
+
+
+/* Fonts End */
+/* Row Spacing Start */
+.spaceV {
+    margin-bottom: 2%;
+}
+.spaceV2 {
+    margin-bottom: 5%;
+}
+/* Row Spacing End */
+
 /* Text Settings End */
 
-/* Container Card Start */
-.containerCard1-fluid{
-    width: 35%;
-    background-color: white;
-    border: 2px solid red;
-    margin-right: .5%;
-}
-.containerCard2-fluid{
-    width: 35%;
-    background-color: white;
-    border: 2px solid red;
-    margin-left: .5%;
+
+
+/* Cater 3 Images Start */
+.picImportantR {
+    padding-right: 3px  !important;
+    
 }
 
-.containerCard3-fluid{
-    width: 35%;
-    background-color: white;
-    border: 2px solid red;
-    margin-right: .5%;
-    margin-top: 1%;
+.picImportantL {
+    padding-left: 3px  !important;
+    
 }
-.containerCard4-fluid{
-    width: 35%;
-    background-color: white;
-    border: 2px solid red;
-    margin-left: .5%;
-    margin-top: 1%;
+/* Cater 3 Images End */
+
+
+
+
+/* Navbar Start */
+.navbar{
+    width: 90%;
+    margin: 0 auto;
 }
+
+.navbar-nav li a{
+    font-family: 'Fugaz', sans-serif;
+    color:#5f002b;
+}
+
+.navbar{
+    padding-bottom: 25px;
+}
+/* Navbar End */
+
+/* Footer start */
+.footBox{
+    padding: 0px !important;
+}
+
+.left{
+    font-family: 'Montauk', sans-serif;
+    color:#5f002b;
+    padding: 0px !important;
+}
+
+.right{
+    font-family: 'Montauk', sans-serif;
+    color: #5f002b;
+    padding: 0px !important;
+    text-align: right;
+}
+
+.right img {
+    padding-bottom: 10px;
+}
+
+.flexMe{
+    width: 100%;
+    display: inline-flex;
+    flex-wrap: nowrap;
+    margin: 0 auto;
+
+}
+/* Footer end */
+
+
+
+
+/* Container Card Start */
+
 /* Container Card End */
 
 .rowImg1 {
@@ -72,19 +193,9 @@ body {
 .containerFood-fluid{
     border: 2px solid blue;
     margin-bottom: 5%;
+    width: 95%;
 }
 
-.containerMenu-fluid{
-    border: 2px solid orange;
-    width: 100%;
-
-}
-
-.menuPrice {
-    color: #5f002b;
-    font-size: 20px;
-
-}
 
 .rowSpace{
     display: flex;
@@ -93,17 +204,10 @@ body {
 
 /* Cater Page Start */
 
-.containerBody-fluid{
-    border: 2px solid black;
-    display: flex;
-    justify-content: center;
-    width: 80;
-}
 
-.containerBody2-fluid{
-    border: 2px solid white;
-    width: 85%;
-}
+
+
+
 
 .containerCater-fluid {
     border: 2px solid pink;
@@ -113,54 +217,75 @@ body {
 
 /* Cater Hero */
 
-.rowHero {
-    border: orange solid 2px;
-    width: 100%;
-    
+
+.caterHero{
+    margin-bottom: 5%;
 }
 
-.caterHero {
-    background-image: url(../assets/RestaurantMockupFiles/assets/cateringHero.jpg);
-    padding-top: 15%;
-    padding-bottom: 15%;
-    background-repeat: no-repeat;
-}
+
 
 /* Cater Hero End */
 
-.colCaterMain-fluid {
-    background-image: url(../assets/RestaurantMockupFiles/assets/cateringMaine.jpg);
-    background-repeat: no-repeat;
-    padding-top: 100%;
-    padding-bottom: 100%;
-}
 
-.caterImage {
+
+.CaterImage {
     background-image: url(../assets/RestaurantMockupFiles/assets/cateringMaine.jpg);
     background-repeat: no-repeat;
     background-size: contain;
+   
+    border: 2px solid purple;
 }
 
+/* small >768 medium >992 */
+/* Media Queries */
+@media (max-width: 992px) {
+    .imgHide {
+      display: none;
+    }
+  }
+  
+/* Media Queries */
 
-.containerCaterTxt-fluid{
-    border: 2px solid red;
-    background-color: white;
-}
-
-.CaterTxt {
-    font-size: 80%;
-}
-
-.containerTnI-fluid {
-    border: 2px solid aqua;
+.caterTxt {
+    font-size: 12px;
     
 }
 
+
 .containerMH-fluid {
-    border: 2px solid orange;
     background-color: white;
-    width: 90%;
+    text-align: center;
+    margin-bottom: 5%;
     
 }
 
 /* Cater Page End */
+
+.testBD{
+    border: 2px solid aqua;
+}
+
+.paddingTest {
+   padding-left: 0%;
+   padding-right: 0%;
+}
+
+.flexRight{
+    display: flex;
+    justify-content: right;
+}
+
+.bGWhite{
+    background-color: white;
+}
+
+
+
+.imgCtr{
+    width: 100%;
+   
+}
+
+.txtFit {
+    height: 100%;
+}
